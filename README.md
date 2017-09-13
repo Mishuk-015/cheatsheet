@@ -30,3 +30,18 @@ git commit -m "message"-adds files to repository from staging area,-m is for mes
 git diff-differentiates all files in repository and working area
 
 git rm file.txt-deletes file from working directory & staging area
+
+
+git revert #hash:it's the  opposite of a commit and then commit it. Better than git reset because doesn't change history
+
+git revert -m #hash:it's the opposite of a commit and then stage it - ready for commit
+
+git clean -f -d:remove untracked files and folders
+
+git clone address of repository:opens repository in working area
+
+ls -la:shows files in cd
+
+git log:shows commit history
+
+
